@@ -8,6 +8,6 @@ num = int(len(words)%2)
 
 if num == 0:
     print(words[len(words)/2])
-    print(words[len(words)/2 +1])
-elif num != 0:
+    print(words[len(words)/2-1])
+else:
     print(words[len(words)/2])
