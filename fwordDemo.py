@@ -5,6 +5,6 @@
 words = input('Type in some words: ').split(' ')
 
 for item in words:
-    print(item)
+    if 'f' in item or 'F' in item:
+        print(item)
     
-
