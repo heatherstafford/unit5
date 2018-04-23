@@ -4,5 +4,7 @@
 
 words = input('Enter some words: ').split(' ')
 
+longest = 0
+
 for item in range:
-    print(len(item))
+    if item 
