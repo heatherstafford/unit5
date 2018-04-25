@@ -8,4 +8,4 @@ words.sort()
 
 num = int(input('What number word do you want? '))
 
-
+print(words[num - 1])
