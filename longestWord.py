@@ -7,4 +7,5 @@ words = input('Enter some words: ').split(' ')
 longest = 0
 
 for item in range:
-    if item 
+    if item > longest:
+        longest = item
