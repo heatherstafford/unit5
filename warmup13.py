@@ -4,11 +4,12 @@
 
 from random import randint
 
-num = randint(1,100)
-
-sum = 0
+numbers = []
 
 for i in range(1,21):
-    sum = sum + num
-print(sum)
+    numbers.append(randint(1,100)
+    
+sum(numbers)
+
+
     
