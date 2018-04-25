@@ -5,7 +5,10 @@
 words = input('Enter some words: ').split(' ')
 
 longest = 0
+word = ' '
 
 for item in words:
     if len(item) > longest:
         longest = len(item)
+        word = item
+print('The longest word is', word)
