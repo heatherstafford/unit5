@@ -3,7 +3,7 @@
 #betterColoredWindow.py
 
 from ggame import *
-from random inport randint
+from random import randint
 
 red = Color(0xff0000,1)
 green = Color(0x00ff00,1)
