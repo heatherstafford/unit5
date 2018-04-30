@@ -5,6 +5,6 @@
 name = input('Enter your first and last name: ').split(' ')
 
 for item in name:
-    print(item[0])
+    print('Your initials are ',item[0])
 
 
