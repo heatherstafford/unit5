@@ -4,7 +4,12 @@
 
 name = input('Enter your first and last name: ').split(' ')
 
+initials = []
+
 for item in name:
-    print('Your initials are ',item[0])
+    initials.append(item[0])
+    
+print('your initials are', initials)
+    
 
 
