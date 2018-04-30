@@ -8,6 +8,7 @@ today = date.today()
 weekday = today.weekday()
 month = today.month
 year = today.year
+day = today.day
 
 days = ['Monday', 'Tuesday', 'Wednesday' , 'Thursday' , 'Friday' , 'Saturday' , 'Sunday']
 months = ['January', 'Feburary', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December']
