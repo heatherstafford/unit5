@@ -7,13 +7,15 @@ from random import randint
 
 ANTS = 30
 WIDTH = 600
-HEIGHT = 300
+HEIGHT = 500
 
+#move each ant randomly up down and left right
 def step():
     for ant in data['antlist']:
         ant.x += randint(-4,3)
         ant.y += randint(-4,3)
 
+#putting ants randomly on the screen
 if __name__ == '__main__':
     
     data = {}
