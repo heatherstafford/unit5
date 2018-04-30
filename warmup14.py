@@ -9,7 +9,7 @@ initials = []
 for item in name:
     initials.append(item[0])
     
-print('your initials are', initials)
+print('your initials are', initials[0],initials[1])
     
 
 
