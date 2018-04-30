@@ -9,4 +9,7 @@ weekday = today.weekday()
 month = today.month
 year = today.year
 
-print('The date is ',weekday, today, month, year)
+days = ['Monday', 'Tuesday', 'Wednesday' , 'Thursday' , 'Friday' , 'Saturday' , 'Sunday']
+months = ['January', 'Feburary', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December']
+
+print('The date is ',days[weeday], today, month, year)
