@@ -7,7 +7,7 @@ from random import randint
 
 ANTS = 10
 WIDTH = 600
-HEIGHT = 600
+HEIGHT = 500
 
 if __name__ == '__main__':
     
