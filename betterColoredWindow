@@ -10,7 +10,7 @@ colors = [Color(0xff0000,1), Color(0x00ff00,1), Color(0x0000ff,1), Color(0xffff0
 def mouseClick(event):
     num = randint(0,3)
     color = colors[num]
-        
+    
     rectangle = RectangleAsset(1000,600,LineStyle(3,color),color)
     Sprite(rectangle)
 
