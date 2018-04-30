@@ -5,7 +5,7 @@
 from ggame import *
 from random import randint
 
-ANTS = 10
+ANTS = 30
 WIDTH = 600
 HEIGHT = 300
 
