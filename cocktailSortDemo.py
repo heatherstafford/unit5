@@ -1,3 +1,7 @@
+#Heather Stafford
+#5/2/18
+#cocktaiLSortDemo.py - implementing cocktail sort
+
 from random import randint
 from time import time
 
