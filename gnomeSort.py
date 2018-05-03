@@ -15,6 +15,7 @@ def mySort(A):
         else:
             A[pos], A[pos - 1] = A[pos - 1], A [pos]
             pos = pos - 1
+    return A
     
 if __name__ == '__main__':
 
