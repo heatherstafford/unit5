@@ -5,7 +5,7 @@
 from random import randint
 from time import time
 
-N = 200 #how many numbers will be sorted
+N = 10 #how many numbers will be sorted
 
 def mySort(A):
     pos = 0 
