@@ -8,5 +8,5 @@ def double(L):
     return new
     
 #testing
-print(double([1, 2, 3])
+print(double([1, 2, 3]))
         
