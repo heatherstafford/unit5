@@ -5,5 +5,5 @@
 def double(a, b, c):
     numbers = double.split(' ')
     for i in range(0, numbers.count() + 1):
-        numbers[i] = numbers[i * 2]
+        numbers[i] = numbers[i ] * 2
         
