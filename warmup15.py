@@ -2,10 +2,11 @@
 #5/4/18
 #warmup15.py
 
-def double(a, b, c):
-    numbers = double.split(' ')
-    for i in range(0, numbers.count() + 1):
-        numbers[i] = numbers[i ] * 2
-        
-double( 1, 2, 3)
+def double(L):
+    new = []
+    
+    return new
+    
+#testing
+print(double([1, 2, 3])
         
