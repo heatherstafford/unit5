@@ -7,3 +7,5 @@ def double(a, b, c):
     for i in range(0, numbers.count() + 1):
         numbers[i] = numbers[i ] * 2
         
+double( 1, 2, 3)
+        
