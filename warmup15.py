@@ -2,10 +2,8 @@
 #5/4/18
 #warmup15.py
 
-def numbersdouble():
-    numberlist = numbersdouble.split(' ')
-    for i in range(0,numberlist.count()):
-        numberlist[i] = (numberlist[i] * 2)
-    print(numberlist)
-    
-numberdouble(1 2 3)
+def double(a, b, c):
+    numbers = double.split(' ')
+    for i in range(0, numbers.count() + 1):
+        
+        
