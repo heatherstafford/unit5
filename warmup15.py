@@ -4,7 +4,8 @@
 
 def double(L):
     new = []
-    
+    for item in L:
+        new.append(item * 2)
     return new
     
 #testing
