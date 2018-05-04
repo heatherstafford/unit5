@@ -7,3 +7,5 @@ def numbersdouble():
     for i in range(0,numberlist.count()):
         numberlist[i] = (numberlist[i] * 2)
     print(numberlist)
+    
+numberdouble(1 2 3)
