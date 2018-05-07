@@ -14,12 +14,13 @@ def plusEquals(A, B):
         new.append(item + B) 
     return new
     
-small = 0
+
 def smallest(C):
+    small = 0
     for item in C:
         if item > small:
-            small = smallt + item
-        return small
+            small = small + item
+        
     
 
 print(plusEquals([1,2,3,4],10))
