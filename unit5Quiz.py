@@ -3,10 +3,7 @@
 #quiz5.py
 
 def penultimate(L):
-    L[len(L) - 1]
-    
-print(penultimate([3,4,5,6,7]))
-
+    print(L[len(L)-2])
 
 def plusEquals(A, B):
     new = []
@@ -20,12 +17,7 @@ def smallest(C):
         if item < small:
             small = item
     return small
-    
-def decimalRange(D):
-    F = []
-    for i in range(D[0]*10, D[1]*10, D[2]*10):
-        print(i)
 
+penultimate([3,4,5,6,7])
 print(plusEquals([1,2,3,4],10))
 print(smallest([1,2,3,4]))
-print(decimalRange([4,10,0.5]))
