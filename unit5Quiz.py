@@ -14,7 +14,7 @@ def plusEquals(A, B):
         new.append(item + B) 
     return new
     
-smallest = 0
+smallest = int(0)
 def smallest(C):
     for item in C:
         if item > smallest:
