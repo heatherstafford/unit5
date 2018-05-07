@@ -23,7 +23,7 @@ def smallest(C):
     
 def decimalRange(D):
     F = []
-    for i in range(float(D[0]), float(D[1]), float(D[2])):
+    for i in range(D[0]*10, D[1]*10, D[2]*10):
         print(i)
 
 print(plusEquals([1,2,3,4],10))
