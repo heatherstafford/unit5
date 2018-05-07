@@ -19,6 +19,7 @@ def smallest(C):
     for item in C:
         if item > small:
             small = smallt + item
+        return small
     
 
 print(plusEquals([1,2,3,4],10))
